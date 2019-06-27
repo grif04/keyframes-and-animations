@@ -1,0 +1,24 @@
+img {
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+}
+
+img:hover{
+    animation-name:grow;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-duration: 1s;
+}
+
+@keyframes grow {
+    from {
+        width:50%;
+        height: 50%;
+    }
+    to {
+        width:100%;
+        height: 100%;
+    }
+}

@@ -1,0 +1,17 @@
+img {
+    width: 50%;
+    height: 50%;
+    margin: 50px;
+    animation-duration: .1s;
+    animation-name: rotate;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-timing-function: linear; 
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(360deg);
+    }
+}
